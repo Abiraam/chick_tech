@@ -25,8 +25,8 @@ Supporting readings from White house directive on STEM and NSF/ Other supporting
  
  ## What can we do about it?  
   
- [Douglas Rushkoff: Program or be Programmed](http://www.rushkoff.com/about/)
- [Treehouse blog Article about Practical application for non-programmers](http://blog.teamtreehouse.com/havent-started-programming-yet) 
+ * [Douglas Rushkoff: Program or be Programmed](http://www.rushkoff.com/about/)
+ * [Treehouse blog Article about Practical application for non-programmers](http://blog.teamtreehouse.com/havent-started-programming-yet) 
  
  ## Meta-Goals:
 When you have completed this workshop, you should understand:
@@ -38,11 +38,11 @@ When you have completed this workshop, you should understand:
 * A bit about the state of the demographics of Technology presently, projections for the next 10 yrs, and some steps you can take. 
 
 
- ## Some Tools of the Trade
+ ## Some Tools and Basic Understandings
  
-* Cloud 9 Internet Development Environment (C9 IDE)
-* C9 IDE include: Terminal
+* Cloud 9 Internet Development Environment (C9 IDE) & Terminal
 * Git and Github
-* Possibly Heroku, if we have enough time! 
-* Libraries
-* HTML/CSS
+* (Possibly Heroku, if we have enough time!) 
+* Libraries: 
+* HTML/CSS/Javascript
+* Understanding Data
