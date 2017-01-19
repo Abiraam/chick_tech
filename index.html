@@ -4,15 +4,14 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src = "cloud.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://d3js.org/d3.v3.min.js" ></script>
+  <script src = "d3.layout.cloud.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script>
-<!-- <script src="d3.layout.cloud.js"></script> -->
  <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   <style>
@@ -109,7 +108,7 @@
 // This is the Bar Chart
 var data = [
   {
-    x: ['Experience Coding', 'No Experience Coding', 'Some Experience Coding'],
+    x: ['Prior Experience', 'No Experience', 'Some Experience'],
     y: [20, 14, 23],
     marker: {
       color: ['rgb(82,185,191)', 'rgb(234,100,156)', 'rgb(112,99,86)']
@@ -124,7 +123,7 @@ Plotly.newPlot('myDiv', data);
 // This is the Pie Graph
       var data = [{
         values: [29, 20, 55],
-        labels: ['Star Wars', 'Star Trek', 'Both'],
+        labels: ['Both','Star Wars','Star Trek'],
         marker: {
             colors: ['rgb(82,185,191)', 'rgb(234,100,156)', 'rgb(112,99,86)']
         }, 
@@ -144,9 +143,12 @@ var text_string = "Of course that’s your contention. You’re a first year gra
       drawWordCloud(text_string);
 
       function drawWordCloud(text_string){
-        var common = "i,me,my,myself,we,us,our,ours,ourselves,you,your,yours,yourself,yourselves,he,him,his,himself,she,her,hers,herself,it,its,itself,they,them,their,theirs,themselves,what,which,who,whom,whose,this,that,these,those,am,is,are,was,were,be,been,being,have,has,had,having,do,does,did,doing,will,would,should,can,could,ought,i'm,you're,he's,she's,it's,we're,they're,i've,you've,we've,they've,i'd,you'd,he'd,she'd,we'd,they'd,i'll,you'll,he'll,she'll,we'll,they'll,isn't,aren't,wasn't,weren't,hasn't,haven't,hadn't,doesn't,don't,didn't,won't,wouldn't,shan't,shouldn't,can't,cannot,couldn't,mustn't,let's,that's,who's,what's,here's,there's,when's,where's,why's,how's,a,an,the,and,but,if,or,because,as,until,while,of,at,by,for,with,about,against,between,into,through,during,before,after,above,below,to,from,up,upon,down,in,out,on,off,over,under,again,further,then,once,here,there,when,where,why,how,all,any,both,each,few,more,most,other,some,such,no,nor,not,only,own,same,so,than,too,very,say,says,said,shall";
+        var common = "i,me,my,myself,we,us,our,ours,ourselves,you,your,yours,yourself,yourselves,he,him,his,himself,she,her,hers,herself,it,its,itself,they,them,their,theirs,themselves,what,which,who,whom,whose,this,that,these,those,am,is,are,was,were,be,been,being,have,has,had,having,do,does,did,doing,will,would,should,can,could,ought,i'm,you're,he's,she's,it's,we're,they're,i've,you've,we've,they've,i'd,you'd,he'd,she'd,we'd,they'd,i'll,you'll,he'll,she'll,we'll,they'll,isn't,aren't,wasn't,weren't,hasn't,haven't,hadn't,doesn't,don't,didn't,won't,wouldn't,shan't,shouldn't,can't,cannot,couldn't,mustn't,let's,that's,who's,what's,here's,there's,when's,where's,why's,how's,a,an,the,and,but,if,or,because,as,until,while,of,at,by,for,with,about,against,between,into,through,during,before,after,above,below,to,from,up,upon,down,in,out,on,off,over,under,again,further,then,once,here,there,when,where,why,how,all,any,both,each,few,more,most,other,some,such,no,nor,not,only,own,same,so,than,too,very,say,says,said,shall,love";
+
 
         var word_count = {};
+        // This is to show how the word_count works! We can uncomment this and look at the JS console. 
+        // console.log(word_count);
 
         var words = text_string.split(/[ '\-\(\)\*":;\[\]|{},.!?]+/);
           if (words.length == 1){
@@ -164,9 +166,8 @@ var text_string = "Of course that’s your contention. You’re a first year gra
             })
           }
 
+
         var svg_location = "#chart";
-        // var width = $(document).width();
-        // var height = $(document).height();
         var width = 700;
         var height = 500;
 
@@ -212,6 +213,7 @@ var text_string = "Of course that’s your contention. You’re a first year gra
 
         d3.layout.cloud().stop();
       }
+
 
 </script>
 
