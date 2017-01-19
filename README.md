@@ -43,6 +43,6 @@ When you have completed this workshop, you should understand:
 * Cloud 9 Internet Development Environment (C9 IDE) & Terminal
 * Git and Github
 * (Possibly Heroku, if we have enough time!) 
-* Libraries: 
+* Libraries: [Plotly](https://plot.ly/javascript/), [D3.js](), 
 * HTML/CSS/Javascript
 * Understanding Data
