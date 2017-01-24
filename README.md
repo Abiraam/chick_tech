@@ -52,7 +52,7 @@ When you have completed this workshop, you should understand:
 
   * Make sure we've signed up for all the services we need.
   * Create a README.md page and see how it works. 
-  * Craft a nifty one-page website with some data using HTML, CSS and some libraries. 
+  * Craft a nifty one-page website with some data using HTML, CSS and some libraries. Here's the [example](https://shielded-mesa-33567.herokuapp.com/index.html) 
   * Add a git repository and push our initial site code to github. 
   * Add some graphs to our site to personalize, and learn a bit about how that works for each.  
   * Add a video. 
