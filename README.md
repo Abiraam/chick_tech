@@ -42,7 +42,23 @@ When you have completed this workshop, you should understand:
  
 * Cloud 9 Internet Development Environment (C9 IDE) & Terminal
 * Git and Github
-* (Possibly Heroku, if we have enough time!) 
-* Libraries: [Plotly](https://plot.ly/javascript/), [D3.js](), 
-* HTML/CSS/Javascript
-* Understanding Data
+* (Hopefully Heroku, if we have enough time!) 
+* Some Libraries: [Plotly](https://plot.ly/javascript/), [D3.js](https://d3js.org/), [JQuery](https://jquery.com/), [Bootstrap](http://getbootstrap.com/)
+* Some HTML/CSS/Javascript
+* Understanding a bit about showing your data
+* Some Programming Terminology and beginning data structures
+
+  ##  Here's an Overview of what we'll do:
+
+  * Make sure we've signed up for all the services we need.
+  * Create a README.md page and see how it works. 
+  * Craft a nifty one-page website with some data using HTML, CSS and some libraries. 
+  * Add a git repository and push our initial site code to github. 
+  * Add some graphs to our site to personalize, and learn a bit about how that works for each.  
+  * Add a video. 
+  * Prepare our code for our live site by adding an index.php file  
+  * Initiate a Heroku repository and push our code to that live site  
+
+
+  [Steps for a C9/Github Push](https://github.com/AlliVaughn/griffin_lvlup/blob/232821ea0dc6c008bc535085bf89f956fd151cc9/weeks/c9_github.md)
+  [Github Flavored Markdown Cheatsheet](https://github.com/dmikalova/sublime-cheat-sheets/blob/master/cheat-sheets/Github%20Flavored%20Markdown.cheatsheet)
