@@ -47,18 +47,19 @@ When you have completed this workshop, you should understand:
 * Some HTML/CSS/Javascript
 * Understanding a bit about showing your data
 * Some Programming Terminology and beginning data structures
+* [Steps for a C9/Github Push](https://github.com/AlliVaughn/griffin_lvlup/blob/232821ea0dc6c008bc535085bf89f956fd151cc9/weeks/c9_github.md)
+* [Github Flavored Markdown Cheatsheet](https://github.com/dmikalova/sublime-cheat-sheets/blob/master/cheat-sheets/Github%20Flavored%20Markdown.cheatsheet)
 
-  ##  Here's an Overview of what we'll do:
+##  The ~6 hour Technical program will consist of: 
+ 
+  * Standard LvlUp Overview of the State of Women in Tech, complete with links and numbers.
+  * An intro to Cloud 9 IDE & Integrated Terminal 
+  * Intro to Git and GitHub
+  * Creation of a README using github-flavored markdown for documentation
+  * A step-by-step build of a basic one page data display website making use of Libraries (Plotly, D3, JQuery) and Bootstrap front-end framework using  pre-flighted code. ( HTML, CSS, JS) Here's the [example](https://shielded-mesa-33567.herokuapp.com/index.html) 
+  * A very basic intro to how the data is being displayed in each visualization case, and how they can manipulate the data to personalize it. 
+  * Creation of a personal Heroku production site
+  * Preparation of our code for our live site by adding an index.php file ( Used as a Build Pack, which Heroku needs to build a production site)
+  * Push from github to the production site, where their friends, family and Chick Tech look at their work!  
 
-  * Make sure we've signed up for all the services we need.
-  * Create a README.md page and see how it works. 
-  * Craft a nifty one-page website with some data using HTML, CSS and some libraries. Here's the [example](https://shielded-mesa-33567.herokuapp.com/index.html) 
-  * Add a git repository and push our initial site code to github. 
-  * Add some graphs to our site to personalize, and learn a bit about how that works for each.  
-  * Add a video. 
-  * Prepare our code for our live site by adding an index.php file  
-  * Initiate a Heroku repository and push our code to that live site  
-
-
-  [Steps for a C9/Github Push](https://github.com/AlliVaughn/griffin_lvlup/blob/232821ea0dc6c008bc535085bf89f956fd151cc9/weeks/c9_github.md)
-  [Github Flavored Markdown Cheatsheet](https://github.com/dmikalova/sublime-cheat-sheets/blob/master/cheat-sheets/Github%20Flavored%20Markdown.cheatsheet)
+  
