@@ -1,3 +1,4 @@
+![C9_Octocat](https://github.com/AlliVaughn/chicktech/raw/master/images/c9_octocat.png)
 # Cloud9- Git/Github How-To: 
 
 * In the bottom left of your C9 dashboard is a section called “Add-on Services”. Click “activate” next to the “GitHub” icon (if you haven’t already).
