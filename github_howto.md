@@ -8,8 +8,9 @@
 * Enter the title “C9”, paste the SSH Key into the “Key” box, and click “Add Key”.
 * Create a new, empty repository for your project.From your repository’s home page, copy the SSH link. By default GitHub shows the HTTPS link, you will need to toggle it to ssh first!
 It will look something like:
-
-```git@github.com:yourname/yourrepository.git```
+```
+git@github.com:yourname/yourrepository.git
+```
 
 * Open your C9 project window, and go to the terminal.Set your git config username:
 ```
