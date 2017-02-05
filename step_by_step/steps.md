@@ -1,5 +1,5 @@
 # Steps
-## [Step 1](step_by_step/step_1.md)
+## [Step 1](step_1.html)
 ## [Step 2](step_2.md)
 ## [Step 3](step_3.md)
 ## [Step 4](step_4.md)
