@@ -17,3 +17,6 @@
   * Creation of a personal Heroku production site
   * Preparation of our code for our live site by adding an index.php file ( Used as a Build Pack, which Heroku needs to build a production site)
   * Push from github to the production site, where their friends, family and Chick Tech look at their work!  
+
+  Next Steps:  
+  ![logo](https://github.com/AlliVaughn/chick_tech/raw/master/images/codecademy.png)
