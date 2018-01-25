@@ -5,7 +5,7 @@
 
 # Introduction to building a Basic Webpage 
 ## [Tools and Basic Understandings](tools.md) 
-## [Step-by-Step Webpage with Libraries](step_by_step/steps.html)
+## [Step-by-Step Webpage with Libraries](step_by_step/steps.md)
 
 
 
