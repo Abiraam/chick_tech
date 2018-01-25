@@ -17,3 +17,9 @@
   ## Next Steps:
 
   ![logo](https://github.com/AlliVaughn/chick_tech/raw/master/images/codecademy.png)
+
+##[Bootstrap Charts](https://mdbootstrap.com/getting-started/)
+	* use another CDN (Content delivery network) to create bootstrap responsive charts 
+
+	* embed the cdns in the header and copy and paste the examples and play around with how they are built. 
+	
