@@ -1,7 +1,3 @@
-![logo](https://github.com/AlliVaughn/griffin_lvlup/raw/master/images/logo.png)
-=================================
-
-
 
 # Introduction to building a Basic Webpage 
 ## [Tools and Basic Understandings](tools.md) 
@@ -19,5 +15,5 @@
   * Push from github to the production site, where their friends, family and Chick Tech look at their work!  
 
   ## Next Steps:
-    
+
   ![logo](https://github.com/AlliVaughn/chick_tech/raw/master/images/codecademy.png)
